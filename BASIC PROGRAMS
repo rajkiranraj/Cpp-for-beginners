@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+  int n;
+std::cin >> n;
+  float x;
+  char c;
+  std::cin >> x >> c;
+  std::cout<<n<<" "<<x<<" "<< c;
+  return 0;
+}
+//basic i/o in cpp 
