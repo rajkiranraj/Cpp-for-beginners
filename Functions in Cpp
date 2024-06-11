@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void add(int a) {
+  if(a==0)
+    return ;
+  else{
+    cout<<a<<endl;
+    add(a-1);}
+}
+
+int main(){int a = 5;
+  add(a);
+  return 0;
+}
+
+expected output should be 5,4,3,2,1
