@@ -71,7 +71,30 @@ For example, if the input(n) is 5, the output will be:
 ****
 *****
 
-4.
+4.A program for printing the number square 
+123456
+123456
+Assume n = 2,m=6
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cout << j;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
+
+6.
 
 
 
