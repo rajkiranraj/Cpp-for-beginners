@@ -94,10 +94,10 @@ int main() {
 
 
 5.STAR TRIANGLE 
-1
-12
-123
-1234
+*
+* *
+* * *
+* * * *
 
 #include <iostream>
 using namespace std;
@@ -108,7 +108,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= i; j++) {
-            cout << j;
+            cout << "*";
         }
         cout << endl;
     }
@@ -119,11 +119,10 @@ int main() {
 
 
 6.INVERTED STAR PATTERN 
-12345
-1234
-123
-12
-1
+* * * *
+* * * 
+* * 
+*
 
 #include <iostream>
 using namespace std;
@@ -134,7 +133,7 @@ int main() {
 
   for (int i = 1; i <= n; i++) {
     for (int j = n; j >= i; j--) {
-      cout << j;
+      cout << "*";
     }
     cout << endl;
   }
@@ -165,6 +164,8 @@ int main() {
 
   return 0;
 }
+
+#TRY INVERTED NUMBER TRIANGLE BY YOUR SELF 
 
 
 7.ODD NUMBER SQUARE 
@@ -219,6 +220,7 @@ int main() {
   return 0;
 }
 
+#TRY ODD NUMBER AND EVEN NUMBER INVERTED TRIANGLE BY URSELF FOR BETTER UNDERSTANDING 
 
 9.ODD NUMBER TRIANGLE{2}
 1
@@ -294,7 +296,34 @@ int main() {
 }
 
 
-12.
+12.INVERTED ALPHABET TRIANGLE 
+A B C D
+A B C 
+A B 
+A
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n;
+
+  for (int i = 1; i <= n; i++) {
+    int a = 65;
+    for (int j = n; j >= i; j--) {
+      cout << char(a) << " ";
+      a++;
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
+
+
+
+
 
 
 
