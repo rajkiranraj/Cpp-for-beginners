@@ -168,6 +168,31 @@ int main() {
 
 
 7.ODD NUMBER TRIANGLE 
+1357
+1357
+1357
+1357
+Assume n = 4
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n;
+
+  for (int i = 1; i <= n; i++) {
+    int a = 1;\\using a new variable 
+    for (int j = 1; j <= n; j++) {
+      cout << a;
+      a += 2;
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
+
 
 
 
