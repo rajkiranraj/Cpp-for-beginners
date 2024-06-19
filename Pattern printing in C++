@@ -383,6 +383,12 @@ int main() {
 }
 
 15.ALPHABET TRIANGLE SQUARE 
+1 2 3 4 5
+A B C D E
+1 2 3 4 5
+A B C D E
+1 2 3 4 5
+ASSUME THAT N IS 5
 
 #include <iostream>
 using namespace std;
@@ -406,6 +412,8 @@ int main() {
 
   return 0;
 }
+
+16.
 
 
 
