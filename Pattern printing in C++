@@ -321,7 +321,7 @@ int main() {
   return 0;
 }
 
-13.ALPHABET TRIANGLE 
+13.INVERTED ALPHABET TRIANGLE 
 A
 1 2
 A B C
