@@ -322,11 +322,11 @@ int main() {
 }
 
 13.INVERTED ALPHABET TRIANGLE 
-A
-1 2
-A B C
-1 2 3 4
 A B C D E
+1 2 3 4
+A B C 
+1 2 
+A
 
 ASSUME THAT THE GIVEN INPUT IS 5
 
@@ -352,6 +352,62 @@ int main() {
 
   return 0;
 }
+
+14.NORMAL ALPHABET TRIANGLE 
+A
+1 2
+A B C
+1 2 3 4
+A B C D E
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n;
+
+  for (int i = 1; i <= n; i++) {
+    int a = 65;
+    for (int j = 1; j <= i; j++) {
+      if (i % 2 == 0) {
+        cout << char(a) << " ";
+        a++;
+      } else {
+        cout << j << " ";
+      }
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
+
+15.ALPHABET TRIANGLE SQUARE 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n;
+
+  for (int i = 1; i <= n; i++) {
+    int a = 65;
+    for (int j = 1; j <= n; j++) {
+      if (i % 2 == 0) {
+        cout << char(a) << " ";
+        a++;
+      } else {
+        cout << j << " ";
+      }
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
+
+
 
 
 
