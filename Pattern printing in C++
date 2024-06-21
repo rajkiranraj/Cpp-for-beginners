@@ -442,7 +442,12 @@ int main() {
 }
 
 17.HOLLOW RECTANGLE
-
+* * * * * *
+*         *
+*         *
+*         *
+*         *
+* * * * * *
 #include <iostream>
 using namespace std;
 
