@@ -470,6 +470,13 @@ int main() {
 
 17. equilateral triangle pattern
 
+expected output for n = 5;
+    *
+   ***
+  *****
+ *******
+*********
+
 
 
 
