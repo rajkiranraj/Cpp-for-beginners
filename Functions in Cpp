@@ -13,5 +13,5 @@ int main(){int a = 5;
   add(a);
   return 0;
 }
-
+call by value function example
 expected output should be 5,4,3,2,1
