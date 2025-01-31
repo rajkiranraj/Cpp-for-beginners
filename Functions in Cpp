@@ -16,3 +16,21 @@ int main(){int a = 5;
 call by value function example
 expected output should be 5,4,3,2,1
 call by reference example
+
+#include <iostream>
+using namespace std;
+
+void addRef(int &a) {
+  if (a == 0)
+    return;
+  int temp = a; // Store the value before modifying
+  a--; // Modify the actual variable
+  addRef(a);
+  cout << temp << endl;
+}
+
+int main() {
+  int a = 5;
+  addRef(a);
+  return 0;
+}
